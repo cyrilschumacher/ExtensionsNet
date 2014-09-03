@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="3585d629-758c-4dd2-8a69-77d76fe4d16b" Title="ExtensionsNet.Desktop.Extensions" Url="html/daa997a5-2af8-3d39-bbff-2d5906f437aa.htm">
+    <HelpTOCNode Id="3879bc34-19af-49df-ad7c-8ed112014272" Title="ICustomAttributeProviderExtensions Class" Url="html/bab9306a-2816-99b5-1eec-b2e8ff57deaf.htm">
+      <HelpTOCNode Id="b6c5419d-f0e8-4443-9b6f-6c4d17f20c33" Title="ICustomAttributeProviderExtensions Methods" Url="html/c12c7e76-4b60-c68b-a482-af9927d752c4.htm">
+        <HelpTOCNode Title="GetAttributeValue(T) Method " Url="html/192dae70-c3a7-6e7f-7578-56d4fa2ffb35.htm" />
+        <HelpTOCNode Title="GetCustomAttributesByType(T) Method " Url="html/b77c1088-3b1b-603e-1c3a-2b9f3c8ef559.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="164072ea-c1d3-4aaa-bcd8-2d5fe29f275d" Title="UriExtensions Class" Url="html/6a1ca93c-2ff9-4bc7-12e5-92759ef70255.htm">
+      <HelpTOCNode Id="9df4ede9-ea7a-4c6f-9d74-39a4796f354f" Title="UriExtensions Methods" Url="html/7bf7ad5f-8705-5988-2359-36077b8b663a.htm">
+        <HelpTOCNode Title="GetHostNameWithProtocol Method " Url="html/a09aa360-fc68-1b89-7c10-df0fbe8294dd.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="66f13a8f-2e62-48c4-a9dd-17d84bb74bf3" Title="XmlSerializerExtensions Class" Url="html/8a469b2a-ecb2-9194-5b02-dbd885b9650c.htm">
+      <HelpTOCNode Id="10513c6e-db18-4e9f-a4df-f3932644ae8b" Title="XmlSerializerExtensions Methods" Url="html/0d4016fc-00e6-d446-7a2c-763b164ab0e6.htm">
+        <HelpTOCNode Id="4df2426e-361b-45df-af89-c211a308785c" Title="Deserialize Method " Url="html/61cb60e3-5268-8bff-28ff-dc7ad68e4f88.htm">
+          <HelpTOCNode Title="Deserialize(T) Method (String)" Url="html/7eca30df-b5a0-b430-1fd4-a843a355e6e7.htm" />
+          <HelpTOCNode Title="Deserialize(T) Method (String, Encoding)" Url="html/0288b672-fbb1-796e-741f-f39b818213ca.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="5bb1d3bd-babb-4209-873c-ede6fbe96e75" Title="SerializeToString Method " Url="html/d1f92729-cfb8-9b1a-b6aa-fe475e6ac6d4.htm">
+          <HelpTOCNode Title="SerializeToString(T) Method (T)" Url="html/716fb9d4-24ea-4959-94aa-8a0ddb9f80cd.htm" />
+          <HelpTOCNode Title="SerializeToString(T) Method (T, Encoding)" Url="html/3b53cb38-f971-8aa2-ceb4-fb154b637b2a.htm" />
+          <HelpTOCNode Title="SerializeToString(T) Method (T, Encoding, Boolean)" Url="html/8d7976c2-b2cc-b03a-0721-c0802a638d2f.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="218fb19b-d761-46d7-a831-205e9a6575d5" Title="ExtensionsNet.Extensions" Url="html/a36bcc48-9c37-9200-38fb-6ab36a7f5a31.htm">
+    <HelpTOCNode Id="422fb8ee-2dad-4987-8b18-dba3e9daa7ca" Title="DateTimeExtensions Class" Url="html/721107ed-689c-1b5e-4197-17d8f63c3aad.htm">
+      <HelpTOCNode Id="9343dcf2-88bd-429a-b0ef-e6b639e7ef6e" Title="DateTimeExtensions Methods" Url="html/0e9c858b-3c43-b17d-7349-ad3984e24dd6.htm">
+        <HelpTOCNode Title="IsDateFormat Method " Url="html/48184431-fb11-6561-c713-32f875c7e341.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6e89bffa-7323-41c6-8ee6-56a3cdf5b913" Title="EnumExtensions Class" Url="html/e1729888-940f-efd1-5287-00766e327052.htm">
+      <HelpTOCNode Id="6ac5b40a-dd45-4ea6-970c-2e967de14841" Title="EnumExtensions Methods" Url="html/9eefece2-f059-96a9-bf42-9a811a43a725.htm">
+        <HelpTOCNode Title="GetValues Method " Url="html/1109dc6f-a305-7aa2-049d-64261fea8d72.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8042909e-7a3f-4f4b-b52c-cd94272e41a4" Title="IEnumerableExtensions Class" Url="html/a868da4d-9a2f-698a-55f8-3512e071fc40.htm">
+      <HelpTOCNode Id="34114c30-8172-4553-b933-fb224dd7f4f6" Title="IEnumerableExtensions Methods" Url="html/d2cb289b-e1b1-49e8-a5ed-d8cc49c70ed1.htm">
+        <HelpTOCNode Title="IsFirst(T) Method " Url="html/0d07bbf3-7dd6-112f-a017-9f5a9a986b06.htm" />
+        <HelpTOCNode Title="IsLast(T) Method " Url="html/ff3652ed-cd50-a71c-311a-96e61532b043.htm" />
+        <HelpTOCNode Id="9d5bb6fe-6e29-4bcb-ba12-442f66bdbe33" Title="Random Method " Url="html/5bc615cd-f904-aa68-5e8b-a69b9659c528.htm">
+          <HelpTOCNode Title="Random(T) Method (IEnumerable(T))" Url="html/20e63263-b18f-c84b-57a7-cd36c434d064.htm" />
+          <HelpTOCNode Title="Random(T) Method (IEnumerable(T), Int32)" Url="html/7ed8710b-a217-1386-4034-f07730d4f1f5.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dd1d0dd6-a9dd-4f6f-8c28-09fa189824c2" Title="ObjectExtensions Class" Url="html/9cd10bb9-4bff-16a0-36db-7df00fd2cef8.htm">
+      <HelpTOCNode Id="d4fea1bf-90d7-425f-a1f3-155bfd7aebb2" Title="ObjectExtensions Methods" Url="html/e6a8127f-bf1d-96a8-3046-600d7cbd3d28.htm">
+        <HelpTOCNode Title="GetAttributeValue(T) Method " Url="html/d97b9b6b-809a-38a5-75f4-af5954b0c9ee.htm" />
+        <HelpTOCNode Title="IsNotNull Method " Url="html/13adfa65-90bb-d634-7c9d-b5066458ddba.htm" />
+        <HelpTOCNode Title="IsNull Method " Url="html/c8d75a3c-6559-2004-79e8-501926249494.htm" />
+        <HelpTOCNode Title="ToEnumerable(T) Method " Url="html/1097085f-a4a7-1271-1b94-dfa4872f90cd.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1e638d4a-27bc-4538-a436-1fc4d00ba171" Title="StringExtensions Class" Url="html/80eb81c9-8215-0475-9b1d-149e07398967.htm">
+      <HelpTOCNode Id="8cb8450f-328e-4548-a23e-d7cc7d9b612f" Title="StringExtensions Methods" Url="html/eac2ed61-d752-e3c0-6fc7-4e5c294e77bd.htm">
+        <HelpTOCNode Id="d88eb5ba-3a4a-41e2-a60e-aa7e0a0e507a" Title="FormatWith Method " Url="html/01c832b0-b6e7-6a33-057b-c304f8c0fadf.htm">
+          <HelpTOCNode Title="FormatWith Method (String, Object[])" Url="html/8382d9d8-cefa-ba9f-6a38-2ecaf43869b2.htm" />
+          <HelpTOCNode Title="FormatWith Method (String, IFormatProvider, Object[])" Url="html/8ed890c0-577a-5fa8-5e26-35bf32c37537.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6e826fdb-cd92-44a2-81bc-6ad44c46f501" Title="IsDate Method " Url="html/88eae2ab-388e-55a5-c0c3-574d9dcaf40f.htm">
+          <HelpTOCNode Title="IsDate Method (String)" Url="html/a40504f8-03ab-634c-a090-911b393ca2d4.htm" />
+          <HelpTOCNode Title="IsDate Method (String, String[])" Url="html/cc73d662-18f8-eb86-88d3-6745d71bc8e2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="IsW3CDate Method " Url="html/05264b4a-b3a0-3d9b-75d7-53cc83452c6e.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b61dba66-b737-4f26-948b-9aa27561c5fd" Title="TypeExtensions Class" Url="html/26f4e1dc-b09c-0422-0efe-1bdf4ab2cefe.htm">
+      <HelpTOCNode Id="e02b729e-93c8-4daf-9ac0-0c95ad9a9c3c" Title="TypeExtensions Methods" Url="html/c1a1d8c3-f9ff-b95f-3b8a-703bcf4b5571.htm">
+        <HelpTOCNode Title="GetValues(T) Method " Url="html/455ed57a-076f-d005-106c-b2416e88cffa.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="79efd992-d45a-49a6-ba37-6a69d90cefb9" Title="UriExtensions Class" Url="html/bf66686a-712e-e9d8-7f8f-face570bdbec.htm">
+      <HelpTOCNode Id="ce6181b8-6a1e-4190-8f67-5da17715f546" Title="UriExtensions Methods" Url="html/e4c70044-6258-fa07-444c-5aad02ba130a.htm">
+        <HelpTOCNode Id="c292ffff-964e-4bcc-8ab9-23d165a87607" Title="AddParameters Method " Url="html/e446cbf6-8879-95eb-463d-93036144c1cf.htm">
+          <HelpTOCNode Title="AddParameters Method (Uri, IEnumerable(KeyValuePair(String, String)))" Url="html/bdbfaf99-32fc-f983-4f43-0144e70637b5.htm" />
+          <HelpTOCNode Title="AddParameters Method (Uri, IEnumerable(KeyValuePair(String, String)), IFormatProvider)" Url="html/5c1d1b7b-ce5c-befc-5528-9d9f318161ec.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Compare Method " Url="html/7f9f4e1f-2387-7351-bdbe-83dffcfdcc5d.htm" />
+        <HelpTOCNode Title="GetDomain Method " Url="html/c0ac47d5-1e5c-3582-6832-a3d6fb7cb63f.htm" />
+        <HelpTOCNode Title="GetParametersQuery Method " Url="html/11195c7a-ebb6-7520-db0f-1b30ceba0947.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="9fc4009d-4fc0-48d2-98ef-f7865b4315cb" Title="ExtensionsNet.Web.Extensions" Url="html/29dcb2b9-4fe3-5438-22c7-fe1718e03a75.htm">
+    <HelpTOCNode Id="12ff37e6-d18b-4629-8aa4-184e37367b4f" Title="HtmlExtensions Class" Url="html/60930909-96e9-199c-6f00-53ab9b96c478.htm">
+      <HelpTOCNode Id="6fa26528-b395-4e94-b683-a5a70bcdff31" Title="HtmlExtensions Methods" Url="html/91e949da-eddf-8434-65ad-d44e5787ae42.htm">
+        <HelpTOCNode Title="Base Method " Url="html/e787f376-e690-bbc3-05b4-750a4c73dbff.htm" />
+        <HelpTOCNode Id="7a249764-f139-4ccf-b6e2-29a35da1f21c" Title="Meta Method " Url="html/daff0dad-1d40-63e5-b722-885b880ed884.htm">
+          <HelpTOCNode Title="Meta Method (HtmlHelper, Object)" Url="html/c034bf85-0345-e990-61b9-7edc51b108e1.htm" />
+          <HelpTOCNode Title="Meta Method (HtmlHelper, String, String)" Url="html/233bda5d-36df-d0fa-b8d5-7aaf80821f03.htm" />
+          <HelpTOCNode Title="Meta Method (HtmlHelper, String, String, Boolean)" Url="html/c8b22f34-91f9-807c-a491-4cdf2bc42d81.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0795471f-4b9f-4cab-bc2d-13160514df38" Title="Title Method " Url="html/ebc020a9-2185-163c-34dc-1b4a7db0806b.htm">
+          <HelpTOCNode Title="Title Method (HtmlHelper, String)" Url="html/1efeca30-a14d-d97f-0283-9c7660cd984d.htm" />
+          <HelpTOCNode Title="Title Method (HtmlHelper, String, String[])" Url="html/8f50f70e-390e-bcac-1609-996fec4e5721.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1ed1524c-7a72-4923-89fa-dc8f58844b78" Title="UrlHelperExtensions Class" Url="html/827904fd-44d0-a570-2d05-c1ae79acac22.htm">
+      <HelpTOCNode Id="95dd4695-b3b9-44c4-b2d0-0dcd4b8a8902" Title="UrlHelperExtensions Methods" Url="html/b9801b3a-206e-57bd-751c-2173f473ee99.htm">
+        <HelpTOCNode Title="Action Method " Url="html/84768fa6-dd93-631d-0e69-976f4967badd.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

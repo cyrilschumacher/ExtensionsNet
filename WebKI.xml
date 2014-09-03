@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Action method" Url="html/84768fa6-dd93-631d-0e69-976f4967badd.htm" />
+  <HelpKINode Title="AddParameters method" Url="html/e446cbf6-8879-95eb-463d-93036144c1cf.htm" />
+  <HelpKINode Title="Base method" Url="html/e787f376-e690-bbc3-05b4-750a4c73dbff.htm" />
+  <HelpKINode Title="Compare method" Url="html/7f9f4e1f-2387-7351-bdbe-83dffcfdcc5d.htm" />
+  <HelpKINode Title="DateTimeExtensions class">
+    <HelpKINode Title="DateTimeExtensions Class" Url="html/721107ed-689c-1b5e-4197-17d8f63c3aad.htm" />
+    <HelpKINode Title="about DateTimeExtensions class" Url="html/721107ed-689c-1b5e-4197-17d8f63c3aad.htm" />
+    <HelpKINode Title="methods" Url="html/0e9c858b-3c43-b17d-7349-ad3984e24dd6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DateTimeExtensions.IsDateFormat method" Url="html/48184431-fb11-6561-c713-32f875c7e341.htm" />
+  <HelpKINode Title="Deserialize method" Url="html/61cb60e3-5268-8bff-28ff-dc7ad68e4f88.htm" />
+  <HelpKINode Title="EnumExtensions class">
+    <HelpKINode Title="EnumExtensions Class" Url="html/e1729888-940f-efd1-5287-00766e327052.htm" />
+    <HelpKINode Title="about EnumExtensions class" Url="html/e1729888-940f-efd1-5287-00766e327052.htm" />
+    <HelpKINode Title="methods" Url="html/9eefece2-f059-96a9-bf42-9a811a43a725.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnumExtensions.GetValues method" Url="html/1109dc6f-a305-7aa2-049d-64261fea8d72.htm" />
+  <HelpKINode Title="ExtensionsNet.Desktop.Extensions namespace" Url="html/daa997a5-2af8-3d39-bbff-2d5906f437aa.htm" />
+  <HelpKINode Title="ExtensionsNet.Desktop.Extensions.ICustomAttributeProviderExtensions class" Url="html/bab9306a-2816-99b5-1eec-b2e8ff57deaf.htm" />
+  <HelpKINode Title="ExtensionsNet.Desktop.Extensions.UriExtensions class" Url="html/6a1ca93c-2ff9-4bc7-12e5-92759ef70255.htm" />
+  <HelpKINode Title="ExtensionsNet.Desktop.Extensions.XmlSerializerExtensions class" Url="html/8a469b2a-ecb2-9194-5b02-dbd885b9650c.htm" />
+  <HelpKINode Title="ExtensionsNet.Extensions namespace" Url="html/a36bcc48-9c37-9200-38fb-6ab36a7f5a31.htm" />
+  <HelpKINode Title="ExtensionsNet.Extensions.DateTimeExtensions class" Url="html/721107ed-689c-1b5e-4197-17d8f63c3aad.htm" />
+  <HelpKINode Title="ExtensionsNet.Extensions.EnumExtensions class" Url="html/e1729888-940f-efd1-5287-00766e327052.htm" />
+  <HelpKINode Title="ExtensionsNet.Extensions.IEnumerableExtensions class" Url="html/a868da4d-9a2f-698a-55f8-3512e071fc40.htm" />
+  <HelpKINode Title="ExtensionsNet.Extensions.ObjectExtensions class" Url="html/9cd10bb9-4bff-16a0-36db-7df00fd2cef8.htm" />
+  <HelpKINode Title="ExtensionsNet.Extensions.StringExtensions class" Url="html/80eb81c9-8215-0475-9b1d-149e07398967.htm" />
+  <HelpKINode Title="ExtensionsNet.Extensions.TypeExtensions class" Url="html/26f4e1dc-b09c-0422-0efe-1bdf4ab2cefe.htm" />
+  <HelpKINode Title="ExtensionsNet.Extensions.UriExtensions class" Url="html/bf66686a-712e-e9d8-7f8f-face570bdbec.htm" />
+  <HelpKINode Title="ExtensionsNet.Web.Extensions namespace" Url="html/29dcb2b9-4fe3-5438-22c7-fe1718e03a75.htm" />
+  <HelpKINode Title="ExtensionsNet.Web.Extensions.HtmlExtensions class" Url="html/60930909-96e9-199c-6f00-53ab9b96c478.htm" />
+  <HelpKINode Title="ExtensionsNet.Web.Extensions.UrlHelperExtensions class" Url="html/827904fd-44d0-a570-2d05-c1ae79acac22.htm" />
+  <HelpKINode Title="FormatWith method" Url="html/01c832b0-b6e7-6a33-057b-c304f8c0fadf.htm" />
+  <HelpKINode Title="GetAttributeValue(Of T) method">
+    <HelpKINode Title="ICustomAttributeProviderExtensions.GetAttributeValue(T) Method " Url="html/192dae70-c3a7-6e7f-7578-56d4fa2ffb35.htm" />
+    <HelpKINode Title="ObjectExtensions.GetAttributeValue(T) Method " Url="html/d97b9b6b-809a-38a5-75f4-af5954b0c9ee.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetAttributeValue&lt;T&gt; method">
+    <HelpKINode Title="ICustomAttributeProviderExtensions.GetAttributeValue(T) Method " Url="html/192dae70-c3a7-6e7f-7578-56d4fa2ffb35.htm" />
+    <HelpKINode Title="ObjectExtensions.GetAttributeValue(T) Method " Url="html/d97b9b6b-809a-38a5-75f4-af5954b0c9ee.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetCustomAttributesByType(Of T) method" Url="html/b77c1088-3b1b-603e-1c3a-2b9f3c8ef559.htm" />
+  <HelpKINode Title="GetCustomAttributesByType&lt;T&gt; method" Url="html/b77c1088-3b1b-603e-1c3a-2b9f3c8ef559.htm" />
+  <HelpKINode Title="GetDomain method" Url="html/c0ac47d5-1e5c-3582-6832-a3d6fb7cb63f.htm" />
+  <HelpKINode Title="GetHostNameWithProtocol method" Url="html/a09aa360-fc68-1b89-7c10-df0fbe8294dd.htm" />
+  <HelpKINode Title="GetParametersQuery method" Url="html/11195c7a-ebb6-7520-db0f-1b30ceba0947.htm" />
+  <HelpKINode Title="GetValues method" Url="html/1109dc6f-a305-7aa2-049d-64261fea8d72.htm" />
+  <HelpKINode Title="GetValues(Of T) method" Url="html/455ed57a-076f-d005-106c-b2416e88cffa.htm" />
+  <HelpKINode Title="GetValues&lt;T&gt; method" Url="html/455ed57a-076f-d005-106c-b2416e88cffa.htm" />
+  <HelpKINode Title="HtmlExtensions class">
+    <HelpKINode Title="HtmlExtensions Class" Url="html/60930909-96e9-199c-6f00-53ab9b96c478.htm" />
+    <HelpKINode Title="about HtmlExtensions class" Url="html/60930909-96e9-199c-6f00-53ab9b96c478.htm" />
+    <HelpKINode Title="methods" Url="html/91e949da-eddf-8434-65ad-d44e5787ae42.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HtmlExtensions.Base method" Url="html/e787f376-e690-bbc3-05b4-750a4c73dbff.htm" />
+  <HelpKINode Title="HtmlExtensions.Meta method" Url="html/daff0dad-1d40-63e5-b722-885b880ed884.htm" />
+  <HelpKINode Title="HtmlExtensions.Title method" Url="html/ebc020a9-2185-163c-34dc-1b4a7db0806b.htm" />
+  <HelpKINode Title="ICustomAttributeProviderExtensions class">
+    <HelpKINode Title="ICustomAttributeProviderExtensions Class" Url="html/bab9306a-2816-99b5-1eec-b2e8ff57deaf.htm" />
+    <HelpKINode Title="about ICustomAttributeProviderExtensions class" Url="html/bab9306a-2816-99b5-1eec-b2e8ff57deaf.htm" />
+    <HelpKINode Title="methods" Url="html/c12c7e76-4b60-c68b-a482-af9927d752c4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICustomAttributeProviderExtensions.GetAttributeValue(Of T) method" Url="html/192dae70-c3a7-6e7f-7578-56d4fa2ffb35.htm" />
+  <HelpKINode Title="ICustomAttributeProviderExtensions.GetAttributeValue&lt;T&gt; method" Url="html/192dae70-c3a7-6e7f-7578-56d4fa2ffb35.htm" />
+  <HelpKINode Title="ICustomAttributeProviderExtensions.GetCustomAttributesByType(Of T) method" Url="html/b77c1088-3b1b-603e-1c3a-2b9f3c8ef559.htm" />
+  <HelpKINode Title="ICustomAttributeProviderExtensions.GetCustomAttributesByType&lt;T&gt; method" Url="html/b77c1088-3b1b-603e-1c3a-2b9f3c8ef559.htm" />
+  <HelpKINode Title="IEnumerableExtensions class">
+    <HelpKINode Title="IEnumerableExtensions Class" Url="html/a868da4d-9a2f-698a-55f8-3512e071fc40.htm" />
+    <HelpKINode Title="about IEnumerableExtensions class" Url="html/a868da4d-9a2f-698a-55f8-3512e071fc40.htm" />
+    <HelpKINode Title="methods" Url="html/d2cb289b-e1b1-49e8-a5ed-d8cc49c70ed1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IEnumerableExtensions.IsFirst(Of T) method" Url="html/0d07bbf3-7dd6-112f-a017-9f5a9a986b06.htm" />
+  <HelpKINode Title="IEnumerableExtensions.IsFirst&lt;T&gt; method" Url="html/0d07bbf3-7dd6-112f-a017-9f5a9a986b06.htm" />
+  <HelpKINode Title="IEnumerableExtensions.IsLast(Of T) method" Url="html/ff3652ed-cd50-a71c-311a-96e61532b043.htm" />
+  <HelpKINode Title="IEnumerableExtensions.IsLast&lt;T&gt; method" Url="html/ff3652ed-cd50-a71c-311a-96e61532b043.htm" />
+  <HelpKINode Title="IEnumerableExtensions.Random method" Url="html/5bc615cd-f904-aa68-5e8b-a69b9659c528.htm" />
+  <HelpKINode Title="IsDate method" Url="html/88eae2ab-388e-55a5-c0c3-574d9dcaf40f.htm" />
+  <HelpKINode Title="IsDateFormat method" Url="html/48184431-fb11-6561-c713-32f875c7e341.htm" />
+  <HelpKINode Title="IsFirst(Of T) method" Url="html/0d07bbf3-7dd6-112f-a017-9f5a9a986b06.htm" />
+  <HelpKINode Title="IsFirst&lt;T&gt; method" Url="html/0d07bbf3-7dd6-112f-a017-9f5a9a986b06.htm" />
+  <HelpKINode Title="IsLast(Of T) method" Url="html/ff3652ed-cd50-a71c-311a-96e61532b043.htm" />
+  <HelpKINode Title="IsLast&lt;T&gt; method" Url="html/ff3652ed-cd50-a71c-311a-96e61532b043.htm" />
+  <HelpKINode Title="IsNotNull method" Url="html/13adfa65-90bb-d634-7c9d-b5066458ddba.htm" />
+  <HelpKINode Title="IsNull method" Url="html/c8d75a3c-6559-2004-79e8-501926249494.htm" />
+  <HelpKINode Title="IsW3CDate method" Url="html/05264b4a-b3a0-3d9b-75d7-53cc83452c6e.htm" />
+  <HelpKINode Title="Meta method" Url="html/daff0dad-1d40-63e5-b722-885b880ed884.htm" />
+  <HelpKINode Title="ObjectExtensions class">
+    <HelpKINode Title="ObjectExtensions Class" Url="html/9cd10bb9-4bff-16a0-36db-7df00fd2cef8.htm" />
+    <HelpKINode Title="about ObjectExtensions class" Url="html/9cd10bb9-4bff-16a0-36db-7df00fd2cef8.htm" />
+    <HelpKINode Title="methods" Url="html/e6a8127f-bf1d-96a8-3046-600d7cbd3d28.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ObjectExtensions.GetAttributeValue(Of T) method" Url="html/d97b9b6b-809a-38a5-75f4-af5954b0c9ee.htm" />
+  <HelpKINode Title="ObjectExtensions.GetAttributeValue&lt;T&gt; method" Url="html/d97b9b6b-809a-38a5-75f4-af5954b0c9ee.htm" />
+  <HelpKINode Title="ObjectExtensions.IsNotNull method" Url="html/13adfa65-90bb-d634-7c9d-b5066458ddba.htm" />
+  <HelpKINode Title="ObjectExtensions.IsNull method" Url="html/c8d75a3c-6559-2004-79e8-501926249494.htm" />
+  <HelpKINode Title="ObjectExtensions.ToEnumerable(Of T) method" Url="html/1097085f-a4a7-1271-1b94-dfa4872f90cd.htm" />
+  <HelpKINode Title="ObjectExtensions.ToEnumerable&lt;T&gt; method" Url="html/1097085f-a4a7-1271-1b94-dfa4872f90cd.htm" />
+  <HelpKINode Title="Random method" Url="html/5bc615cd-f904-aa68-5e8b-a69b9659c528.htm" />
+  <HelpKINode Title="SerializeToString method" Url="html/d1f92729-cfb8-9b1a-b6aa-fe475e6ac6d4.htm" />
+  <HelpKINode Title="StringExtensions class">
+    <HelpKINode Title="StringExtensions Class" Url="html/80eb81c9-8215-0475-9b1d-149e07398967.htm" />
+    <HelpKINode Title="about StringExtensions class" Url="html/80eb81c9-8215-0475-9b1d-149e07398967.htm" />
+    <HelpKINode Title="methods" Url="html/eac2ed61-d752-e3c0-6fc7-4e5c294e77bd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StringExtensions.FormatWith method" Url="html/01c832b0-b6e7-6a33-057b-c304f8c0fadf.htm" />
+  <HelpKINode Title="StringExtensions.IsDate method" Url="html/88eae2ab-388e-55a5-c0c3-574d9dcaf40f.htm" />
+  <HelpKINode Title="StringExtensions.IsW3CDate method" Url="html/05264b4a-b3a0-3d9b-75d7-53cc83452c6e.htm" />
+  <HelpKINode Title="Title method" Url="html/ebc020a9-2185-163c-34dc-1b4a7db0806b.htm" />
+  <HelpKINode Title="ToEnumerable(Of T) method" Url="html/1097085f-a4a7-1271-1b94-dfa4872f90cd.htm" />
+  <HelpKINode Title="ToEnumerable&lt;T&gt; method" Url="html/1097085f-a4a7-1271-1b94-dfa4872f90cd.htm" />
+  <HelpKINode Title="TypeExtensions class">
+    <HelpKINode Title="TypeExtensions Class" Url="html/26f4e1dc-b09c-0422-0efe-1bdf4ab2cefe.htm" />
+    <HelpKINode Title="about TypeExtensions class" Url="html/26f4e1dc-b09c-0422-0efe-1bdf4ab2cefe.htm" />
+    <HelpKINode Title="methods" Url="html/c1a1d8c3-f9ff-b95f-3b8a-703bcf4b5571.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TypeExtensions.GetValues(Of T) method" Url="html/455ed57a-076f-d005-106c-b2416e88cffa.htm" />
+  <HelpKINode Title="TypeExtensions.GetValues&lt;T&gt; method" Url="html/455ed57a-076f-d005-106c-b2416e88cffa.htm" />
+  <HelpKINode Title="UriExtensions class">
+    <HelpKINode Title="UriExtensions Class" Url="html/6a1ca93c-2ff9-4bc7-12e5-92759ef70255.htm" />
+    <HelpKINode Title="UriExtensions Class" Url="html/bf66686a-712e-e9d8-7f8f-face570bdbec.htm" />
+    <HelpKINode Title="about UriExtensions class" Url="html/6a1ca93c-2ff9-4bc7-12e5-92759ef70255.htm" />
+    <HelpKINode Title="about UriExtensions class" Url="html/bf66686a-712e-e9d8-7f8f-face570bdbec.htm" />
+    <HelpKINode Title="methods" Url="html/7bf7ad5f-8705-5988-2359-36077b8b663a.htm" />
+    <HelpKINode Title="methods" Url="html/e4c70044-6258-fa07-444c-5aad02ba130a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UriExtensions.AddParameters method" Url="html/e446cbf6-8879-95eb-463d-93036144c1cf.htm" />
+  <HelpKINode Title="UriExtensions.Compare method" Url="html/7f9f4e1f-2387-7351-bdbe-83dffcfdcc5d.htm" />
+  <HelpKINode Title="UriExtensions.GetDomain method" Url="html/c0ac47d5-1e5c-3582-6832-a3d6fb7cb63f.htm" />
+  <HelpKINode Title="UriExtensions.GetHostNameWithProtocol method" Url="html/a09aa360-fc68-1b89-7c10-df0fbe8294dd.htm" />
+  <HelpKINode Title="UriExtensions.GetParametersQuery method" Url="html/11195c7a-ebb6-7520-db0f-1b30ceba0947.htm" />
+  <HelpKINode Title="UrlHelperExtensions class">
+    <HelpKINode Title="UrlHelperExtensions Class" Url="html/827904fd-44d0-a570-2d05-c1ae79acac22.htm" />
+    <HelpKINode Title="about UrlHelperExtensions class" Url="html/827904fd-44d0-a570-2d05-c1ae79acac22.htm" />
+    <HelpKINode Title="methods" Url="html/b9801b3a-206e-57bd-751c-2173f473ee99.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UrlHelperExtensions.Action method" Url="html/84768fa6-dd93-631d-0e69-976f4967badd.htm" />
+  <HelpKINode Title="XmlSerializerExtensions class">
+    <HelpKINode Title="XmlSerializerExtensions Class" Url="html/8a469b2a-ecb2-9194-5b02-dbd885b9650c.htm" />
+    <HelpKINode Title="about XmlSerializerExtensions class" Url="html/8a469b2a-ecb2-9194-5b02-dbd885b9650c.htm" />
+    <HelpKINode Title="methods" Url="html/0d4016fc-00e6-d446-7a2c-763b164ab0e6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="XmlSerializerExtensions.Deserialize method" Url="html/61cb60e3-5268-8bff-28ff-dc7ad68e4f88.htm" />
+  <HelpKINode Title="XmlSerializerExtensions.SerializeToString method" Url="html/d1f92729-cfb8-9b1a-b6aa-fe475e6ac6d4.htm" />
+</HelpKI>
