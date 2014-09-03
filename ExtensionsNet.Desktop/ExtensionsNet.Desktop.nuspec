@@ -3,7 +3,7 @@
   <metadata>
     <id>ExtensionsNet.Desktop</id>
     <title>
-      Extensions for .NET project
+      Extensions for .NET Desktop project
     </title>
     <version>1.0.0</version>
     <authors>Cyril Schumacher</authors>
@@ -15,5 +15,8 @@
     </description>
     <copyright>Copyright 2014 ExtensionsNet by Cyril Schumacher</copyright>
     <tags>extensions net portable</tags>
+    <dependencies>
+      <dependency id="ExtensionsNet" version="1.0.0" />
+    </dependencies>
   </metadata>
 </package>
