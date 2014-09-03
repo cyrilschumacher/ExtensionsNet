@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ExtensionsNet</id>
+    <title>
+      Extensions for .NET project
+    </title>
+    <version>1.0.0</version>
+    <authors>Cyril Schumacher</authors>
+    <owners>Cyril Schumacher</owners>
+    <licenseUrl>https://github.com/cyrilschumacher/ExtensionsNet/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/cyrilschumacher/ExtensionsNet</projectUrl>
+    <description>
+      Extensions for .NET Framework 4, Silverlight 5, Windows 8, Windows Phone 8.1 and Windows Phone Silverlight 8.
+    </description>
+    <copyright>Copyright 2014 ExtensionsNet by Cyril Schumacher</copyright>
+    <tags>extensions net portable</tags>
+  </metadata>
+</package>
