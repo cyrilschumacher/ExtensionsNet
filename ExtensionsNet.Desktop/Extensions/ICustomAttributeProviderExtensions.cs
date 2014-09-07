@@ -59,7 +59,7 @@ namespace ExtensionsNet.Desktop.Extensions
 
             // Obtient et récupére la valeur du premier attribut.
             var attribute = attributes.FirstOrDefault();
-            return attribute == null ? default(T) : ObjectExtensions.GetAttributeValue<T>(attribute, propertyName);
+            return attribute == null ? default(T) : attribute.GetAttributeValue<T>(propertyName);
         }
 
         /// <summary>

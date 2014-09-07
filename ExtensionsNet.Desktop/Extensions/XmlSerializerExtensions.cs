@@ -49,7 +49,7 @@ namespace ExtensionsNet.Desktop.Extensions
         public static string SerializeToString<T>(T model)
             where T : class
         {
-            return SerializeToString<T>(model, Encoding.UTF8);
+            return SerializeToString(model, Encoding.UTF8);
         }
 
         /// <summary>
@@ -61,8 +61,7 @@ namespace ExtensionsNet.Desktop.Extensions
         /// <returns>Object serialized.</returns>
         public static string SerializeToString<T>(T model, Encoding encoding)
             where T : class
-        {
-            return SerializeToString<T>(model, Encoding.UTF8, false);
+        {            return SerializeToString(model, Encoding.UTF8, false);
         }
 
         /// <summary>

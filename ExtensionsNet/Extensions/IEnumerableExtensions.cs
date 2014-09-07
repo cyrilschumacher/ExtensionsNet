@@ -86,6 +86,23 @@ namespace ExtensionsNet.Extensions
             return Random(enumerable).Take(count);
         }
 
+        /// <summary>
+        ///     Supprime tous les éléments qui correspondent aux conditions définies par le prédicat spécifié.
+        /// </summary>
+        /// <typeparam name="T">Type d'item.</typeparam>
+        /// <param name="enumerable">Collection.</param>
+        /// <param name="match">Délégué qui définit les conditions des éléments à supprimer.</param>
+        /// <exception cref="ArgumentNullException">Se lève si <paramref name="list"/> est nul.</exception>
+        /// <exception cref="ArgumentNullException">Se lève si <paramref name="match"/> est nul.</exception>
+        public static int RemoveAll<T>(this IEnumerable<T> enumerable, Func<T, bool> match)
+        {
+            if (enumerable == null) throw new ArgumentNullException("enumerable");
+            if (match == null) throw new ArgumentNullException("match");
+
+            var itemsToRemove = enumerable.Where(match).ToList();
+            return itemsToRemove.RemoveAll(itemsToRemove);
+        }
+
         #endregion Methods.
     }
 }

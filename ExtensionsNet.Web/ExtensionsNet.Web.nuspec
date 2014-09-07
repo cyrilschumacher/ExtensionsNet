@@ -11,10 +11,10 @@
     <licenseUrl>https://github.com/cyrilschumacher/ExtensionsNet/LICENSE</licenseUrl>
     <projectUrl>https://github.com/cyrilschumacher/ExtensionsNet</projectUrl>
     <description>
-      Extensions for .NET Framework 4, Silverlight 5, Windows 8, Windows Phone 8.1 and Windows Phone Silverlight 8.
+      Extensions for .NET Framework 4 ASP.NET.
     </description>
     <copyright>Copyright 2014 ExtensionsNet by Cyril Schumacher</copyright>
-    <tags>extensions net portable</tags>
+    <tags>extensions net</tags>
     <dependencies>
       <dependency id="ExtensionsNet" version="1.0.0" />
     </dependencies>

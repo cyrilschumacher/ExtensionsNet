@@ -1,14 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Reflection;
 
 namespace ExtensionsNet.Extensions
 {
     /// <summary>
-    ///     Extension class for <see cref="Enum" />.
+    ///     Extension class for <see cref="ValueType" />.
     /// </summary>
     /// <author>Cyril Schumacher</author>
     /// <date>03/09/2014T14:32:35+01:00</date>
-    /// <copyright file="/Extensions/EnumExtensions.cs">
+    /// <copyright file="/Extensions/ValueTypeExtensions.cs">
     ///     The MIT License (MIT)
     /// 
     ///     Copyright (c) 2014, ExtensionsNet by Cyril Schumacher
@@ -32,24 +33,24 @@ namespace ExtensionsNet.Extensions
     ///     THE SOFTWARE.
     /// </copyright>
     [CLSCompliant(true)]
-    public static class EnumExtensions
+    public static class ValueTypeExtensions
     {
         #region Methods. 
 
         /// <summary>
         ///     Get an array of values ​​of the constants in a specified enumeration.
         /// </summary>
-        /// <param name="enumeration">Enumeration.</param>
-        /// <returns>Array contains value constants in <paramref name="enumeration"/>.</returns>
-        /// <exception cref="ArgumentNullException">Throw if <paramref name="enumeration"/> is null.</exception>
-        public static Array GetValues(this Enum enumeration)
+        /// <param name="valueType">Enumeration.</param>
+        /// <returns>Array contains value constants in <paramref name="valueType"/>.</returns>
+        /// <exception cref="ArgumentNullException">Throw if <paramref name="valueType"/> is null.</exception>
+        public static Array GetValues(this ValueType valueType)
         {
-            if (enumeration == null)
+            if (valueType == null)
             {
-                throw new ArgumentNullException("enumeration", "The parameter is null.");
+                throw new ArgumentNullException("valueType", "The parameter is null.");
             }
 
-            var type = enumeration.GetType();
+            var type = valueType.GetType();
             var fields = type.GetFields(BindingFlags.Public | BindingFlags.Static);
 
             return _GetMemberEnum(type, fields);
@@ -60,13 +61,13 @@ namespace ExtensionsNet.Extensions
         /// <summary>
         ///     Return the members of enumeration in array.
         /// </summary>
-        /// <param name="enumerationType">Enumeration type.</param>
+        /// <param name="valueType">Enumeration type.</param>
         /// <param name="fields">Fields of enumeration.</param>
         /// <returns>Array contains value of enumeration.</returns>
-        private static Array _GetMemberEnum(Type enumerationType, FieldInfo[] fields)
+        private static Array _GetMemberEnum(Type valueType, IList<FieldInfo> fields)
         {
-            var array = Array.CreateInstance(enumerationType, fields.Length);
-            for (var i = 0; i < fields.Length; i++)
+            var array = Array.CreateInstance(valueType, fields.Count);
+            for (var i = 0; i < fields.Count; i++)
             {
                 var obj = fields[i].GetValue(null);
                 array.SetValue(obj, i);

@@ -48,12 +48,6 @@
     <Compile Include="Extensions\HtmlExtensions.cs" />
     <Compile Include="Extensions\UrlHelperExtensions.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ExtensionsNet\ExtensionsNet.csproj">
-      <Project>{5b220ff4-cc1b-4e3e-9c9a-b74ad7c51a34}</Project>
-      <Name>ExtensionsNet</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
