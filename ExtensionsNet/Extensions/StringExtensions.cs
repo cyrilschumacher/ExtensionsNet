@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using System.Text;
 
 namespace ExtensionsNet.Extensions
 {
@@ -54,6 +55,13 @@ namespace ExtensionsNet.Extensions
         /// <param name="provider">An object that supplies culture-specific formatting information.</param>
         /// <param name="parameters">An object array that contains zero or more objects to format.</param>
         /// <returns>A copy of format in which the format items have been replaced by the string representation of the corresponding objects in <paramref name="parameters"/>.</returns>
+        /// <example>
+        ///     This sample shows how use <see cref="FormatWith(string, IFormatProvider, object[])"/> method.
+        ///     <code>
+        ///         string format = "{0},{1}!";
+        ///         format.FormatWith("Hello","world");
+        ///     </code>
+        /// </example>
         public static string FormatWith(this string format, IFormatProvider provider, params object[] parameters)
         {
             return string.Format(provider, format, parameters);
@@ -89,6 +97,24 @@ namespace ExtensionsNet.Extensions
         public static bool IsW3CDate(this string value)
         {
             return IsDate(value, "yyyy-MM-dd", "YYYY-MM-DDThh:mmTZD", "YYYY-MM-DDThh:mm:ssTZD", "YYYY-MM-DDThh:mm:ss.sTZD");
+        }
+
+        /// <summary>
+        ///     Create a <see cref="StringBuilder"/> in a <see cref="string"/>.
+        /// </summary>
+        /// <param name="value">Value.</param>
+        /// <returns>A <see cref="StringBuilder"/>.</returns>
+        /// <example>
+        ///     This sample shows how use <see cref="ToBuilder"/> method.
+        ///     <code>
+        ///         string value = "Hello,";
+        ///         var builder = value.ToBuilder();
+        ///         builder.Append("world!");
+        ///     </code>
+        /// </example>
+        public static StringBuilder ToBuilder(this string value)
+        {
+            return new StringBuilder(value);
         }
 
         #endregion Methods.

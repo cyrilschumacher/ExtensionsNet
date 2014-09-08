@@ -48,12 +48,12 @@ namespace ExtensionsNet.Extensions
         {
             if (list == null)
             {
-                throw new ArgumentNullException("list");
+                throw new ArgumentNullException("list", "The parameter is null.");
             }
 
             if (items == null)
             {
-                throw new ArgumentNullException("items");
+                throw new ArgumentNullException("items", "The parameter is null.");
             }
 
             foreach (var item in items)
@@ -73,12 +73,12 @@ namespace ExtensionsNet.Extensions
         {
             if (list == null)
             {
-                throw new ArgumentNullException("list");
+                throw new ArgumentNullException("list", "The parameter is null.");
             }
 
             if (items == null)
             {
-                throw new ArgumentNullException("items");
+                throw new ArgumentNullException("items", "The parameter is null.");
             }
 
             foreach (var item in _GetNotExistingItems(list, items))
@@ -98,12 +98,12 @@ namespace ExtensionsNet.Extensions
         {
             if (list == null)
             {
-                throw new ArgumentNullException("list");
+                throw new ArgumentNullException("list", "The parameter is null.");
             }
 
             if (delete == null)
             {
-                throw new ArgumentNullException("delete");
+                throw new ArgumentNullException("delete", "The parameter is null.");
             }
 
             var itemToRemoves = delete as IList<T> ?? delete.ToList();

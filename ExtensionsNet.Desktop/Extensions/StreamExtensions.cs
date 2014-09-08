@@ -1,15 +1,15 @@
 ﻿using System;
-using System.Globalization;
-using System.Web.Mvc;
+using System.IO;
+using System.Windows.Media.Imaging;
 
-namespace ExtensionsNet.Web.Extensions
+namespace ExtensionsNet.Extensions
 {
     /// <summary>
-    ///     Extension class for <see cref="UrlHelper" />.
+    ///     Extension class for <see cref="Stream" />.
     /// </summary>
     /// <author>Cyril Schumacher</author>
-    /// <date>03/09/2014T16:48:19+01:00</date>
-    /// <copyright file="/Extensions/UrlHelperExtensions.cs">
+    /// <date>25/03/2014T10:01:28+01:00</date>
+    /// <copyright file="/Extensions/StreamExtensions.cs">
     ///     The MIT License (MIT)
     ///
     ///     Copyright (c) 2014, ExtensionsNet by Cyril Schumacher
@@ -33,36 +33,33 @@ namespace ExtensionsNet.Web.Extensions
     ///     THE SOFTWARE.
     /// </copyright>
     [CLSCompliant(true)]
-    public static class UrlHelperExtensions
+    public static class StreamExtensions
     {
-        #region Constants.
-
-        /// <summary>
-        ///     Format anchor.
-        /// </summary>
-        private const string AnchorFormat = "{0}#{1}";
-
-        #endregion Constants.
-
         #region Methods.
 
         /// <summary>
-        ///     Generates a <see cref="string"/> to a fully qualified URL to an action method.
+        ///     Create a <see cref="BitmapImage"/> from <see cref="Stream"/>.
         /// </summary>
-        /// <param name="helper">Url helper.</param>
-        /// <param name="actionName">Name of action method.</param>
-        /// <param name="controllerName">Controller name.</param>
-        /// <param name="anchor">Anchor.</param>
-        /// <returns>A <see cref="string"/> to a fully qualified URL to an action method.</returns>
-        /// <exception cref="System.ArgumentNullException">Throw if <paramref name="helper" /> is null.</exception>
-        public static string Action(this UrlHelper helper, string actionName, string controllerName, string anchor)
+        /// <param name="stream">Stream.</param>
+        /// <returns>A <see cref="BitmapImage"/>.</returns>
+        public static BitmapImage FromStream(this Stream stream)
         {
-            if (helper == null)
-            {
-                throw new ArgumentNullException("helper", "The parameter is null.");
-            }
+            return FromStream(stream, new BitmapCacheOption());
+        }
 
-            return string.Format(CultureInfo.InvariantCulture, AnchorFormat, helper.Action(actionName, controllerName), anchor);
+        /// <summary>
+        ///     Create a <see cref="BitmapImage"/> from <see cref="Stream"/>.
+        /// </summary>
+        /// <param name="stream">Stream.</param>
+        /// <param name="option">Specifies how a bitmap image takes advantage of memory caching.</param>
+        /// <returns>A <see cref="BitmapImage"/>.</returns>
+        public static BitmapImage FromStream(this Stream stream, BitmapCacheOption option)
+        {
+            var image = new BitmapImage { CacheOption = option };
+            image.BeginInit();
+            image.StreamSource = stream;
+            image.EndInit();
+            return image;
         }
 
         #endregion Methods.

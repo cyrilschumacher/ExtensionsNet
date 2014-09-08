@@ -11,7 +11,7 @@ namespace ExtensionsNet.Web.Extensions
     /// </summary>
     /// <author>Cyril Schumacher</author>
     /// <date>03/09/2014T16:58:54+01:00</date>
-    /// <copyright file="/Extensions/HtmlExtensions.cs">
+    /// <copyright file="/Extensions/HtmlHelperExtensions.cs.cs">
     ///     The MIT License (MIT)
     ///
     ///     Copyright (c) 2014, ExtensionsNet by Cyril Schumacher
@@ -35,17 +35,8 @@ namespace ExtensionsNet.Web.Extensions
     ///     THE SOFTWARE.
     /// </copyright>
     [CLSCompliant(true)]
-    public static class HtmlExtensions
+    public static class HtmlHelperExtensions
     {
-        #region Constants.
-
-        /// <summary>
-        ///     Format of title of website.
-        /// </summary>
-        private const string TitleFormat = "{0} - ";
-
-        #endregion Constants.
-
         #region Methods.
 
         /// <summary>
@@ -117,8 +108,22 @@ namespace ExtensionsNet.Web.Extensions
         /// <returns>The HTML markup without encoding.</returns>
         public static IHtmlString Title(this HtmlHelper helper, string websiteName, params string[] pageCategories)
         {
+            return Title(helper, websiteName, "-", pageCategories);
+        }
+
+        /// <summary>
+        ///     Return a <c><title /></c> by a title of website and categories of the current page.
+        /// </summary>
+        /// <param name="helper">Html helper.</param>
+        /// <param name="websiteName">Title of Website.</param>
+        /// <param name="separator">Separator between categories.</param>
+        /// <param name="pageCategories">Categories of the current page.</param>
+        /// <returns>The HTML markup without encoding.</returns>
+        public static IHtmlString Title(this HtmlHelper helper, string websiteName, string separator, params string[] pageCategories)
+        {
             var title = pageCategories.Where(category => !string.IsNullOrEmpty(category))
-                .Aggregate(new StringBuilder(), (builder, category) => builder.AppendFormat("{0} - ", category)).Append(websiteName);
+                .Aggregate(new StringBuilder(), (builder, category) => builder.AppendFormat("{0} {1} ", category, separator))
+                .Append(websiteName);
 
             return Title(helper, title.ToString());
         }
